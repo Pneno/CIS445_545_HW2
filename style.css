@@ -57,7 +57,7 @@ a:link, a:visited{
     color: rgb(155, 188, 218);
 }
 
-#headshot img {
+#headshot img{
 	float: right;
 	padding: 20px;
 	max-height: 250px;
@@ -73,4 +73,15 @@ a:link, a:visited{
 #contacts img{
 	max-width: 23px;
 	max-height: 23px;
+}
+
+#aboutme img{
+	max-height: 350px;
+	max-width: 350px;
+	float: right;
+	padding: 20px;
+}
+
+#aboutme h3{
+	padding-top: 50px;
 }
