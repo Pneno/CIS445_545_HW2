@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(45, 94, 83);
+	background-image: url('pics/background.jpg');
+	background-size: 100% 100%;
+	background-attachment:fixed
+}
+
+#head{
+	margin-left: auto;
+	margin-right: auto;
+	color: blue;
+	font-size: x-large;
+	text-shadow: -2px 0 black, -2px -2px black, 0 -2px black;
+	text-align: center;
+}
+
+#menu {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16pt;
+	font-variant: small-caps;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 20px;
+	max-width: 700px;
+	min-width: 550px;
+    box-shadow: 3px 3px 3px 3px rgba( 0, 0, 0, 0.3);
+}
+
+main {
+	margin: auto ;
+	margin-left: auto;
+	margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+	padding: 20px ;
+	border-radius: 20px ;
+    box-shadow: 3px 3px 3px 3px rgba( 0, 0, 0, 0.3);
+	max-width: 850px;
+	min-width: 550px;
+	font-size: 18px;
+}
+
+#miniinfo{
+    margin-left: auto;
+	margin-right: auto;
+	font-size: 12pt;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 20px;
+	max-width: 400px;
+    box-shadow: 3px 3px 3px 3px rgba( 0, 0, 0, 0.3);
+}
+
+h1, h2, h3, p, ul{
+    color:aliceblue
+}
+
+a:link, a:visited{
+    color: rgb(155, 188, 218);
+}
+
+#headshot img {
+	float: right;
+	padding: 20px;
+	max-height: 250px;
+	max-width: 250px;
+}
+
+#contacts{
+	font-size: 20px;
+    align-items: center;
+	padding-top: 10px;
+}
+
+#contacts img{
+	max-width: 23px;
+	max-height: 23px;
+}
